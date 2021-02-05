@@ -1,0 +1,72 @@
+2021-02-03 16:06:39.677 [main] ERROR com.nyha.task2xml.builder.PapersSaxBuilder [buildSetPapers] -- SAX parser build error java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\data_xml\students.xml (Системе не удается найти указанный путь)
+2021-02-04 12:11:22.222 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser
+2021-02-04 12:25:50.983 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser
+2021-02-04 12:34:08.734 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-04 12:34:37.366 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:35:27.469 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser
+2021-02-04 12:35:36.772 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:35:54.346 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:36:43.906 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:37:58.227 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:37:58.283 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.285 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.286 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.289 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.299 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.300 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.301 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.303 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.305 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.309 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.311 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.314 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.316 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.317 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.318 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:37:58.320 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:39:29.007 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser
+2021-02-04 12:40:04.840 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:40:04.878 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.880 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.883 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.893 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.894 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.896 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.897 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.899 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.900 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.902 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.903 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.905 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.906 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.907 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.908 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:40:04.909 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:37.988 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:43:38.055 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.057 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.060 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.061 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.063 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.064 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.073 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.075 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.076 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.077 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.078 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.080 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.087 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.090 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.092 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:43:38.096 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:59:24.486 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 12:59:24.551 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 12:59:24.553 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 13:00:00.501 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-04 13:00:20.528 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser
+2021-02-04 13:03:10.355 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 13:03:10.424 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 13:03:10.427 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 13:03:10.439 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-04 13:03:10.442 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-04 13:03:10.443 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added

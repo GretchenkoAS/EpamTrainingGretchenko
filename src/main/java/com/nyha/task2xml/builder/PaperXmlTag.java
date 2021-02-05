@@ -1,5 +1,10 @@
 package com.nyha.task2xml.builder;
 
+import com.nyha.task2xml.entity.Assigment;
+
+import java.util.Arrays;
+import java.util.Optional;
+
 public enum PaperXmlTag {
     PAPERS("papers"),
     ART_PAPER("art-paper"),
@@ -26,5 +31,10 @@ public enum PaperXmlTag {
 
     public String getTag() {
         return tag;
+    }
+
+    public static Optional<PaperXmlTag> getTagByValue(String value) {
+        return Arrays.stream(PaperXmlTag.values()).
+                filter(o -> o.getTag().equals(value)).findAny();
     }
 }

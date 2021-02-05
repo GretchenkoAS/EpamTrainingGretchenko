@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<papers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="urn:papers"
+        xsi:schemaLocation="periodical.xsd">
+
+    <art-paper id="a1" language="eng">
+        <title>Shrek</title>
+        <type>magazine</type>
+        <release-date>2015-01-01</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>14</pages>
+            <glossy>true</glossy>
+            <subscribe-index>83472</subscribe-index>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <science-paper id="s1" language="rus">
+        <title>Квант</title>
+        <type>magazine</type>
+        <release-date>1970-02-23</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>24</pages>
+            <glossy>true</glossy>
+            <subscribe-index>34738</subscribe-index>
+        </chars>
+        <attestation-organization>ВАК</attestation-organization>
+    </science-paper>
+</papers>
