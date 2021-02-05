@@ -20,6 +20,8 @@ public class PaperHandler extends DefaultHandler {
     private static final String ID_REGEX = "\\w\\d{1,5}";
     private static final String DEFAULT_LANGUAGE = "rus";
     private static final int MAX_ATTRIBUTES_NUMBER = 2;
+    private static final String HYPNET = "-";
+    private static final String UNDERSCOPE = "_";
 
     public PaperHandler() {
         papers = new HashSet<Paper>();
@@ -55,7 +57,7 @@ public class PaperHandler extends DefaultHandler {
                 current.setLanguage(DEFAULT_LANGUAGE);
             }
         } else {
-            PaperXmlTag temp = PaperXmlTag.valueOf(qName.toUpperCase().replace("-", "_"));
+            PaperXmlTag temp = PaperXmlTag.valueOf(qName.toUpperCase().replace(HYPNET, UNDERSCOPE));
             if (elementWithText.contains(temp)) {
                 currentTag = temp;
             }
