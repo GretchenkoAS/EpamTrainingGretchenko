@@ -1,7 +1,7 @@
 package com.nyha.task2xml.builder;
 
 import com.nyha.task2xml.entity.*;
-import com.nyha.task2xml.exeption.ParserException;
+import com.nyha.task2xml.exception.ParserException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

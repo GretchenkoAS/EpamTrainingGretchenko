@@ -4,7 +4,7 @@ import com.nyha.task2xml.builder.AbstractPapersBuilder;
 import com.nyha.task2xml.builder.PapersDomBuilder;
 import com.nyha.task2xml.builder.PapersSaxBuilder;
 import com.nyha.task2xml.builder.PapersStaxBuilder;
-import com.nyha.task2xml.exeption.ParserException;
+import com.nyha.task2xml.exception.ParserException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

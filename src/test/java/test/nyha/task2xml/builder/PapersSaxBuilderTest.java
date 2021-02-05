@@ -2,7 +2,7 @@ package test.nyha.task2xml.builder;
 
 import com.nyha.task2xml.builder.AbstractPapersBuilder;
 import com.nyha.task2xml.entity.Paper;
-import com.nyha.task2xml.exeption.ParserException;
+import com.nyha.task2xml.exception.ParserException;
 import com.nyha.task2xml.factory.PaperBuilderFactory;
 import org.testng.annotations.Test;
 

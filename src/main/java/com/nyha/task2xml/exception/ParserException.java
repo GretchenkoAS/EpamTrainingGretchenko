@@ -1,4 +1,4 @@
-package com.nyha.task2xml.exeption;
+package com.nyha.task2xml.exception;
 
 public class ParserException extends Exception {
     public ParserException() {

@@ -1,7 +1,7 @@
 package com.nyha.task2xml.builder;
 
 import com.nyha.task2xml.entity.Paper;
-import com.nyha.task2xml.exeption.ParserException;
+import com.nyha.task2xml.exception.ParserException;
 
 import java.util.HashSet;
 import java.util.Set;
