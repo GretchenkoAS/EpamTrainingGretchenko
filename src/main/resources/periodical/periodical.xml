@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<papers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="urn:papers"
+        xsi:schemaLocation="periodical.xsd">
+
+    <art-paper id="a1" language="eng">
+        <title>Shrek</title>
+        <type>magazine</type>
+        <release-date>2015-01-01</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>14</pages>
+            <glossy>true</glossy>
+            <subscribe-index>83472</subscribe-index>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <science-paper id="s1" language="rus">
+        <title>Квант</title>
+        <type>magazine</type>
+        <release-date>1970-02-23</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>24</pages>
+            <glossy>true</glossy>
+            <subscribe-index>34738</subscribe-index>
+        </chars>
+        <attestation-organization>ВАК</attestation-organization>
+    </science-paper>
+
+    <science-paper id="s2" language="eng">
+        <title>Scientific American</title>
+        <type>magazine</type>
+        <release-date>1899-02-23</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>12</pages>
+            <glossy>true</glossy>
+            <subscribe-index>99887</subscribe-index>
+        </chars>
+        <attestation-organization>Scopus</attestation-organization>
+    </science-paper>
+
+    <art-paper id="a2" language="rus">
+        <title>Друг пенсионера</title>
+        <type>newspapers</type>
+        <release-date>2010-05-27</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>false</colored>
+            <pages>16</pages>
+            <subscribe-index>84532</subscribe-index>
+        </chars>
+        <assigment>home-tips</assigment>
+    </art-paper>
+
+    <art-paper id="a3">
+        <title>Грамотный пешеход</title>
+        <type>booklet</type>
+        <release-date>2018-05-23</release-date>
+        <monthly>false</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>4</pages>
+            <glossy>true</glossy>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <art-paper id="a4" language="rus">
+        <title>Человек-паук</title>
+        <type>magazine</type>
+        <release-date>2011-08-01</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>12</pages>
+            <glossy>true</glossy>
+            <subscribe-index>21472</subscribe-index>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <art-paper id="a5" language="rus">
+        <title>Черепашки нинзя</title>
+        <type>magazine</type>
+        <release-date>2014-08-03</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>12</pages>
+            <glossy>true</glossy>
+            <subscribe-index>43212</subscribe-index>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <art-paper id="a6" language="rus">
+        <title>Незнайка</title>
+        <type>magazine</type>
+        <release-date>2008-04-04</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>12</pages>
+            <glossy>false</glossy>
+            <subscribe-index>73624</subscribe-index>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <art-paper id="a7" language="eng">
+        <title>Faberlic</title>
+        <type>magazine</type>
+        <release-date>2008-03-13</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>18</pages>
+            <glossy>true</glossy>
+            <subscribe-index>91512</subscribe-index>
+        </chars>
+        <assigment>fashion</assigment>
+    </art-paper>
+
+    <art-paper id="a22" language="eng">
+        <title>Oriflame</title>
+        <type>magazine</type>
+        <release-date>2004-07-12</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>18</pages>
+            <glossy>true</glossy>
+            <subscribe-index>51512</subscribe-index>
+        </chars>
+        <assigment>fashion</assigment>
+    </art-paper>
+
+    <art-paper id="a8" language="eng">
+        <title>Kinfolk</title>
+        <type>magazine</type>
+        <release-date>2009-04-03</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>18</pages>
+            <glossy>true</glossy>
+            <subscribe-index>36612</subscribe-index>
+        </chars>
+        <assigment>culinary</assigment>
+    </art-paper>
+
+    <art-paper id="a9">
+        <title>Сельская правда</title>
+        <type>newspapers</type>
+        <release-date>2002-04-03</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>false</colored>
+            <pages>14</pages>
+            <subscribe-index>83623</subscribe-index>
+        </chars>
+        <assigment>news</assigment>
+    </art-paper>
+
+    <art-paper id="a10">
+        <title>Народная воля</title>
+        <type>newspapers</type>
+        <release-date>2004-06-04</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>false</colored>
+            <pages>10</pages>
+            <subscribe-index>72361</subscribe-index>
+        </chars>
+        <assigment>news</assigment>
+    </art-paper>
+
+    <art-paper id="a11" language="rus">
+        <title>Скуби-Ду</title>
+        <type>magazine</type>
+        <release-date>2009-09-09</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>true</colored>
+            <pages>12</pages>
+            <glossy>true</glossy>
+            <subscribe-index>33634</subscribe-index>
+        </chars>
+        <assigment>for-kids</assigment>
+    </art-paper>
+
+    <art-paper id="a12">
+        <title>СБ Беларусь сегодня</title>
+        <type>newspapers</type>
+        <release-date>2014-06-04</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>false</colored>
+            <pages>10</pages>
+            <subscribe-index>72431</subscribe-index>
+        </chars>
+        <assigment>news</assigment>
+    </art-paper>
+
+    <art-paper id="a13">
+        <title>Вечерний Брест</title>
+        <type>newspapers</type>
+        <release-date>2010-06-24</release-date>
+        <monthly>true</monthly>
+        <chars>
+            <colored>false</colored>
+            <pages>10</pages>
+            <subscribe-index>77239</subscribe-index>
+        </chars>
+        <assigment>news</assigment>
+    </art-paper>
+</papers>

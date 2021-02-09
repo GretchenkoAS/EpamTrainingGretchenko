@@ -70,3 +70,147 @@
 2021-02-04 13:03:10.439 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
 2021-02-04 13:03:10.442 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
 2021-02-04 13:03:10.443 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-05 10:00:51.015 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-05 10:00:51.035 [main] ERROR com.nyha.task2xml.builder.PapersDomBuilder [buildSetPapers] -- File error or I/O error: 
+java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\data\periodical.xml (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:860) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[?:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:178) ~[?:?]
+	at com.nyha.task2xml.builder.PapersDomBuilder.buildSetPapers(PapersDomBuilder.java:41) [classes/:?]
+	at com.nyha.task2xml.run.Main.main(Main.java:14) [classes/:?]
+2021-02-05 10:01:35.559 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-05 10:01:35.573 [main] ERROR com.nyha.task2xml.builder.PapersDomBuilder [buildSetPapers] -- File error or I/O error: 
+java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\periodical.xml (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:860) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[?:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:178) ~[?:?]
+	at com.nyha.task2xml.builder.PapersDomBuilder.buildSetPapers(PapersDomBuilder.java:41) [classes/:?]
+	at com.nyha.task2xml.run.Main.main(Main.java:14) [classes/:?]
+2021-02-05 10:02:12.192 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-05 10:02:12.215 [main] ERROR com.nyha.task2xml.builder.PapersDomBuilder [buildSetPapers] -- File error or I/O error: 
+java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\resources\data\periodical.xml (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:860) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[?:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:178) ~[?:?]
+	at com.nyha.task2xml.builder.PapersDomBuilder.buildSetPapers(PapersDomBuilder.java:41) [classes/:?]
+	at com.nyha.task2xml.run.Main.main(Main.java:14) [classes/:?]
+2021-02-05 10:02:40.231 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-05 10:02:40.242 [main] ERROR com.nyha.task2xml.builder.PapersDomBuilder [buildSetPapers] -- File error or I/O error: 
+java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\main\resources\data\periodical.xml (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:860) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[?:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:178) ~[?:?]
+	at com.nyha.task2xml.builder.PapersDomBuilder.buildSetPapers(PapersDomBuilder.java:41) [classes/:?]
+	at com.nyha.task2xml.run.Main.main(Main.java:14) [classes/:?]
+2021-02-05 10:02:52.075 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-09 11:32:02.223 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-09 11:32:02.260 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-09 11:32:02.264 [main] ERROR com.nyha.task2xml.builder.PapersDomBuilder [buildSetPapers] -- File error or I/O error: 
+java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\src\test\resources\periodicalTest.xml (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:860) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[?:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:178) ~[?:?]
+	at com.nyha.task2xml.builder.PapersDomBuilder.buildSetPapers(PapersDomBuilder.java:41) [classes/:?]
+	at test.nyha.task2xml.builder.PapersDomBuilderTest.buildPlanesPositiveTest(PapersDomBuilderTest.java:68) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851) [testng-6.10.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129) [testng-6.10.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112) [testng-6.10.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:756) [testng-6.10.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:610) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340) [testng-6.10.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289) [testng-6.10.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.10.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.10.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293) [testng-6.10.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218) [testng-6.10.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1133) [testng-6.10.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1104) [testng-6.10.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2021-02-09 11:32:49.419 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-09 11:32:49.438 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating DOM parser
+2021-02-09 11:33:03.393 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:03.446 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:03.449 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:03.453 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:03.457 [main] ERROR com.nyha.task2xml.builder.PapersSaxBuilder [buildSetPapers] -- SAX parser build error java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\src\test\resources\periodicalTest.xml (Не удается найти указанный файл)
+2021-02-09 11:33:19.532 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:19.551 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:19.553 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:19.557 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:19.573 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:19.574 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:36.926 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:36.939 [main] ERROR com.nyha.task2xml.builder.PapersSaxBuilder [buildSetPapers] -- SAX parser build error java.io.FileNotFoundException: D:\УЧ\course\EpamTasks\xmlTask2\periodical\periodicalTest.xml (Системе не удается найти указанный путь)
+2021-02-09 11:33:48.384 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:48.401 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:48.403 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:48.407 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating SAX parser
+2021-02-09 11:33:48.411 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:33:48.415 [main] INFO  com.nyha.task2xml.builder.PaperHandler [endElement] -- element added
+2021-02-09 11:34:21.917 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser
+2021-02-09 11:34:21.983 [main] INFO  com.nyha.task2xml.factory.PaperBuilderFactory [createPaperBuilder] -- Creating STAX parser

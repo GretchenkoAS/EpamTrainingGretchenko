@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="urn:papers"
+        xmlns:tns="urn:papers"
+        elementFormDefault="qualified">
+
+    <element name="papers">
+        <complexType>
+            <sequence>
+                <element ref="tns:paper"
+                         minOccurs="2"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="paper" type="tns:Paper" abstract="true"/>
+    <element name="art-paper" type="tns:ArtPaper" substitutionGroup="tns:paper"/>
+    <element name="science-paper" type="tns:SciencePaper" substitutionGroup="tns:paper"/>
+
+    <complexType name="Paper">
+        <sequence>
+            <element name="title">
+                <simpleType>
+                    <restriction base="string">
+                        <minLength value="2"/>
+                        <maxLength value="25"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="type">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="magazine"/>
+                        <enumeration value="newspapers"/>
+                        <enumeration value="booklet"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="release-date" type="date"/>
+            <element name="monthly" type="boolean"/>
+            <element name="chars" type="tns:Chars"/>
+        </sequence>
+        <attribute name="id" use="required">
+            <simpleType>
+                <restriction base="ID" >
+                    <pattern value="\w\d{1,5}"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+        <attribute name="language" use="optional" default="rus">
+            <simpleType>
+                <restriction base="string" >
+                    <pattern value="\w{3}"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <complexType name="Chars">
+        <all>
+            <element name="colored" type="boolean"/>
+            <element name="pages">
+                <simpleType>
+                    <restriction base="positiveInteger">
+                        <minInclusive value="1"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="glossy" type="boolean" minOccurs="0"/>
+            <element name="subscribe-index"  minOccurs="0">
+                <simpleType>
+                    <restriction base="string">
+                        <pattern value="\d{5}"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </all>
+    </complexType>
+
+    <complexType name="ArtPaper">
+        <complexContent>
+            <extension base="tns:Paper">
+                <sequence>
+                    <element name="assigment">
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="fashion"/>
+                            <enumeration value="culinary"/>
+                            <enumeration value="home-tips"/>
+                            <enumeration value="for-kids"/>
+                            <enumeration value="news"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="SciencePaper">
+        <complexContent>
+            <extension base="tns:Paper">
+                <sequence>
+                    <element name="attestation-organization">
+                        <simpleType>
+                            <restriction base="string">
+                                <minLength value="3"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+</schema>
