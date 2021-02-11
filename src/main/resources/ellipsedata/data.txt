@@ -1,0 +1,7 @@
+Ellipse: 5 -2 7 -9
+Triangle: 12 1 7
+Ellipse: 0.0 0.0
+Ellipse: 17 22 72 -19
+Ellipse: 5 -2
+Ellipse: 5s -2 7 -9
+Ellipse: 1 12 7 1
