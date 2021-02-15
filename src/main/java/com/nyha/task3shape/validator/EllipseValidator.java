@@ -15,7 +15,7 @@ public class EllipseValidator {
             SPACE + REGEX_COORDINATE + SPACE + REGEX_COORDINATE + SPACE +
             REGEX_COORDINATE + SPACE + REGEX_COORDINATE;
 
-    public boolean isEllipseData(String data) {
+    public static boolean isEllipseData(String data) {
         boolean result = data.matches(REGEX_ELLIPSE);
         logger.debug("Data was checked. Result: " + result);
         return result;

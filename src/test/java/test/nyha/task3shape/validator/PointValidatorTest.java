@@ -1,6 +1,6 @@
 package test.nyha.task3shape.validator;
 
-import com.nyha.task3shape.entity.Point2d;
+import com.nyha.task3shape.entity.CustomPoint2d;
 import com.nyha.task3shape.validator.PointValidator;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -24,16 +24,16 @@ public class PointValidatorTest {
 
     @Test
     public void isPointsFromEllipsePositiveTest() {
-        Point2d beginPoint = new Point2d(1,1);
-        Point2d endPoint = new Point2d(2,2);
+        CustomPoint2d beginPoint = new CustomPoint2d(1,1);
+        CustomPoint2d endPoint = new CustomPoint2d(2,2);
         boolean result = validator.isPointsFromEllipse(beginPoint, endPoint);
         assertTrue(result);
     }
 
     @Test
     public void isPointsFromEllipseNegativeTest() {
-        Point2d beginPoint = new Point2d(1,1);
-        Point2d endPoint = new Point2d(1,2);
+        CustomPoint2d beginPoint = new CustomPoint2d(1,1);
+        CustomPoint2d endPoint = new CustomPoint2d(1,2);
         boolean result = validator.isPointsFromEllipse(beginPoint, endPoint);
         assertFalse(result);
     }

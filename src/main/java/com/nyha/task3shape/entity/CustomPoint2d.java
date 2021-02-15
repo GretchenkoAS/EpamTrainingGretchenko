@@ -1,10 +1,10 @@
 package com.nyha.task3shape.entity;
 
-public class Point2d {
+public class CustomPoint2d {
     private int x;
     private int y;
 
-    public Point2d(int x, int y) {
+    public CustomPoint2d(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -26,20 +26,20 @@ public class Point2d {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
+    public boolean equals(Object o) {
+        if (this == o) {
             return true;
         }
-        if (obj == null || getClass() != obj.getClass()) {
+        if (o == null || getClass() != o.getClass()) {
             return false;
         }
 
-        Point2d point2D = (Point2d) obj;
+        CustomPoint2d customPoint2D = (CustomPoint2d) o;
 
-        if (point2D.x != x) {
+        if (customPoint2D.x != x) {
             return false;
         }
-        if (point2D.y != y) {
+        if (customPoint2D.y != y) {
             return false;
         }
         return true;

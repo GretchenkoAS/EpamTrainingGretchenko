@@ -1,48 +1,80 @@
 package com.nyha.task3shape.entity;
 
 import com.nyha.task3shape.exeption.ShapeException;
+import com.nyha.task3shape.observer.EllipseEvent;
+import com.nyha.task3shape.observer.ObservableEllipse;
+import com.nyha.task3shape.observer.ObserverEllipse;
+import com.nyha.task3shape.observer.impl.EllipseObserver;
 
-public class Ellipse extends Shape{
-    private Point2d beginPoint;
-    private Point2d endPoint;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Ellipse(Point2d beginPoint, Point2d endPoint) {
+public class Ellipse extends Shape implements ObservableEllipse {
+    private List<ObserverEllipse> observers;
+    private CustomPoint2d beginPoint;
+    private CustomPoint2d endPoint;
+
+    public Ellipse(CustomPoint2d beginPoint, CustomPoint2d endPoint) {
         this.beginPoint = beginPoint;
         this.endPoint = endPoint;
+        observers = new ArrayList<>();
+        this.attach(new EllipseObserver());
+        notifyObservers();
     }
 
-    public Point2d getBeginPoint() {
+    public CustomPoint2d getBeginPoint() {
         return beginPoint;
     }
 
-    public void setBeginPoint(Point2d beginPoint) throws ShapeException {
+    public void setBeginPoint(CustomPoint2d beginPoint) throws ShapeException {
         if (beginPoint == null){
             throw new ShapeException("Point is null");
         }
         this.beginPoint = beginPoint;
+        notifyObservers();
+
     }
 
-    public Point2d getEndPoint() {
+    public CustomPoint2d getEndPoint() {
         return endPoint;
     }
 
-    public void setEndPointPoint(Point2d endPoint) throws ShapeException {
+    public void setEndPointPoint(CustomPoint2d endPoint) throws ShapeException {
         if (endPoint == null){
             throw new ShapeException("Point is null");
         }
         this.endPoint = endPoint;
+        notifyObservers();
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
+    public void attach(ObserverEllipse observer) {
+        if(observer != null) {
+            observers.add(observer);
+        }
+    }
+
+    @Override
+    public void detach(ObserverEllipse observer) {
+        observers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        EllipseEvent event = new EllipseEvent(this);
+        observers.forEach(observer -> observer.parameterChanged(event));
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
             return true;
         }
-        if (obj == null || getClass() != obj.getClass()) {
+        if (o == null || getClass() != o.getClass()) {
             return false;
         }
 
-        Ellipse ellipse = (Ellipse) obj;
+        Ellipse ellipse = (Ellipse) o;
         if (beginPoint == null) {
             if (ellipse.beginPoint != null) {
                 return false;

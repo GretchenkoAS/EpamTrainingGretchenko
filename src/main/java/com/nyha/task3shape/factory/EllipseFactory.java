@@ -1,7 +1,7 @@
 package com.nyha.task3shape.factory;
 
 import com.nyha.task3shape.entity.Ellipse;
-import com.nyha.task3shape.entity.Point2d;
+import com.nyha.task3shape.entity.CustomPoint2d;
 import com.nyha.task3shape.exeption.ShapeException;
 import com.nyha.task3shape.validator.PointValidator;
 import org.apache.logging.log4j.LogManager;
@@ -14,8 +14,8 @@ public class EllipseFactory extends BaseFactory{
 
     @Override
     public Ellipse getInstance(List<Integer> coordinates) throws ShapeException {
-        Point2d beginPoint = new Point2d(coordinates.get(0), coordinates.get(1));
-        Point2d endPoint = new Point2d(coordinates.get(2), coordinates.get(3));
+        CustomPoint2d beginPoint = new CustomPoint2d(coordinates.get(0), coordinates.get(1));
+        CustomPoint2d endPoint = new CustomPoint2d(coordinates.get(2), coordinates.get(3));
         PointValidator pointValidator = new PointValidator();
         if(!pointValidator.isPointsFromEllipse(beginPoint, endPoint)){
             logger.error("Incorrect point values");
