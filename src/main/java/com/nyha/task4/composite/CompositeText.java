@@ -1,11 +1,12 @@
 package com.nyha.task4.composite;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CompositeText implements ComponentText{
-    private final CompositeType type;
-    private final List<ComponentText> components = new ArrayList<>();
+    private CompositeType type;
+    private List<ComponentText> components = new ArrayList<>();
 
     public CompositeText(CompositeType type) {
         this.type = type;
@@ -13,6 +14,10 @@ public class CompositeText implements ComponentText{
 
     public CompositeType getType() {
         return type;
+    }
+
+    public int componentNumber() {
+        return components.size();
     }
 
     @Override
@@ -23,6 +28,11 @@ public class CompositeText implements ComponentText{
     @Override
     public void remove(ComponentText component) {
         components.remove(component);
+    }
+
+    @Override
+    public List<ComponentText> getComponents() {
+        return Collections.unmodifiableList(components);
     }
 
     @Override
@@ -53,14 +63,14 @@ public class CompositeText implements ComponentText{
     public int hashCode() {
         final int prime = 31;
         int result = type.hashCode();
-        result = prime * result + components.hashCode();
+        result = prime * result + ((components == null) ? 0 : components.hashCode());
         return result;
     }
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        String delimiter = type.getChildDelimiter();
+        String delimiter = type.getDelimiter();
         int cutLength = type.getCutLength();
         for (ComponentText component : components) {
             String childText = String.join(delimiter, component.toString());

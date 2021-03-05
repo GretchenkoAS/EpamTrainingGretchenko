@@ -1,9 +1,15 @@
 package com.nyha.task4.composite;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.List;
+
 public class Symbol implements ComponentText{
+    static Logger logger = LogManager.getLogger();
     public static final int LENGHT_SIMBOL = 1;
-    private final char character;
-    private final SymbolType type;
+    private char character;
+    private SymbolType type;
 
     public Symbol(char character, SymbolType type) {
         this.character = character;
@@ -20,12 +26,20 @@ public class Symbol implements ComponentText{
 
     @Override
     public void add(ComponentText component) {
+        logger.error("Operation not supported for class symbol");
         throw new UnsupportedOperationException("Operation not supported for class symbol");
 
     }
 
     @Override
     public void remove(ComponentText component) {
+        logger.error("Operation not supported for class symbol");
+        throw new UnsupportedOperationException("Operation not supported for class symbol");
+    }
+
+    @Override
+    public List<ComponentText> getComponents() {
+        logger.error("Operation not supported for class symbol");
         throw new UnsupportedOperationException("Operation not supported for class symbol");
     }
 
@@ -33,7 +47,6 @@ public class Symbol implements ComponentText{
     public int countSymbol() {
         return LENGHT_SIMBOL;
     }
-
 
     @Override
     public boolean equals(Object o) {
